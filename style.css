@@ -1,0 +1,60 @@
+body {
+    font-family: system-ui;
+   text-align: center;
+   font-size: 120%;    
+   height: 100%;
+   width: 98%;
+}
+main{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+}
+h1{
+    font-size: 2em;
+    margin: -15px;
+}
+h4{
+    font-size: 1em;
+    font-weight: 500;
+}
+h6{
+    margin-bottom: 15px;
+    font-weight: 400;
+    }
+    a{
+        text-decoration: none;
+        font-family: 'Times New Roman', Times, serif;
+    }
+figure{
+    margin-top:  35px;
+    margin-bottom: -5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+input{
+    margin: 20px;
+    text-align: center;
+}
+input[name= "name"]{
+    border: none;
+    outline: none;
+    font-size: 1em;
+    border-bottom: 3px solid black;
+    text-align: center;
+}
+#submit{
+    background-color: olive;
+    color: white;
+    border: none;
+    padding: 10px 10px;
+    border-radius: 10px;
+    font-weight: 500;
+    cursor: pointer;
+
+
+}
+
